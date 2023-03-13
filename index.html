@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>E-mail e Dadi</title>
+</head>
+<body>
+   <!-- Home page -->
+   <section id="HomePage" class="d-none CPM-wrapper d-flex wrapper flex-column align-items-start justify-content-center CPM-home-bg">
+    <div class="CPM-m300-left">
+        <h1 class="text-center text-primary">Benvenuto</h1>
+        <button id="EmailCheck" type="button" class="btn btn-outline-primary CPM-button mt-5 mb-3 border-3"><span><i class="fa-solid fa-envelope-circle-check"></i></span> Verifica la tua mail</button>
+        <p class="text-center text-primary"><strong>oppure</strong></p>
+        <button id="DiceGame" type="button" class="btn btn-outline-success CPM-button border-3 mb-5">Gioca con i dadi</button>
+    </div> 
+   </section>
+   <!-- Email section -->
+   <section id="E-mail" class="d-none CPM-wrapper CPM-mail-bg d-flex flex-column justify-content-center align-items-center">
+        <div class=" d-flex flex-column justify-content-center align-items-center">
+            <h1 class="text-center text-white">Convalida Qui la tua Mail</h1>
+                <input type="email" class="form-control CPM-email border-3 mt-5 text-center" id="Email1" placeholder="Convalida la tua mail">
+                <button id="Validate" type="button" class="btn CPM-email btn-outline-primary bg-primary text-white mt-5 text-center">Convalida</button>
+            <div id="text" class="text-white text-center">
+               
+            </div>
+        </div>
+   </section>
+   <!-- Dice section -->
+   <section id="Dice" class="CPM-Dice-bg CPM-wrapper d-flex justify-content-around align-items-center text-white">
+    <div class="CPM-m500-left">
+        <h2>Il tuo dado</h2>
+        <div id="MyDice" class="rounded-circle bg-success CPM-circle d-flex justify-content-center align-items-center">
+            
+        </div>
+    </div>
+    <div id="win">
+        <button id="Game" type="button" class="btn btn-outline-primary bg-dark CPM-button border-3 CPM-m400-top">Gioca con i dadi</button>
+    </div>
+    <div class="">
+        <h2 class="me-5">Il dado del PC</h2>
+        <div id="PcDice" class="rounded-circle bg-warning CPM-circle ms-4 d-flex justify-content-center align-items-center">
+
+        </div>
+    </div>
+   </section>
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+:root{
+
+}
+
+.CPM-wrapper{
+    width: 100%;
+    height: 100vh;
+}
+
+.CPM-button{
+    width: 250px;
+}
+
+.CPM-home-bg{
+    background-image: url(../img/bg.jpeg);
+    background-size: cover;
+}
+
+.CPM-m300-left{
+    margin-left: 300px;
+}
+
+.CPM-mail-bg{
+    background-image: url(../img/bgwood-jpeg.jpeg);
+    background-size: cover;
+}
+
+.CPM-email{
+    width: 300px;
+}
+
+.CPM-Dice-bg{
+    background-image: url(../img/carpet.jpg);
+    background-size: cover;
+}
+
+.CPM-circle{
+    width: 150px;
+    height: 150px;
+}
+
+.CPM-m500-left{
+    margin-left: 500px;
+}
+
+.CPM-m400-top{
+    margin-top: 400px;
+}
+
